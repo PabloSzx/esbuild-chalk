@@ -1,0 +1,11 @@
+{
+  "name": "esbuild-chalk",
+  "private": true,
+  "scripts": {
+    "build": "esbuild --bundle index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "esbuild": "^0.14.0"
+  }
+}
